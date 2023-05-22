@@ -11,7 +11,9 @@
     <h3>¿Qué comí?</h3>
     <p>{{ item.whatDidIEat }}</p>
     <h3>Imagen:</h3>
-    <iframe class="img" [src]="item.img"></iframe>
+    <div class="conatiner-img">
+      <iframe class="img" [src]="item.img"></iframe>
+    </div>
     <h3>Descripción:</h3>
     <p>{{ item.description || "-" }}</p>
   </div>

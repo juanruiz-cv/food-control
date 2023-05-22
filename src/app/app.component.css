@@ -17,7 +17,7 @@ header {
 }
 
 .card {
-
+  width: 19rem;
   padding: 1rem;
   margin: 1rem auto;
   border-radius: 1rem;
@@ -32,8 +32,14 @@ h3 {
   text-decoration: underline;
 }
 
+.conatiner-img {
+  display: flex;
+  justify-content: center;
+}
+
 .img {
   border-radius: 1rem;
   border-style: none;
   height: 14rem;
+  margin: auto;
 }
