@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: sans-serif;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(.25rem);
+    -webkit-filter: blur(.25rem);
+    background: rgb(74, 155, 119);
+    background-image: url("assets/background7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
